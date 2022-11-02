@@ -680,5 +680,5 @@ Resources:
         - Ref: PipelineDeployCodePipelineActionRole
 Outputs:
   PipelineEndpoint:
-    Description: The URL to access the pipeline
+    Description: The URL to access the pipeline force new 
     Value: !Sub "https://${AWS::Region}.console.aws.amazon.com/codesuite/codepipeline/pipelines/${Pipeline}/view?region=${AWS::Region}"
