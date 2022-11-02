@@ -63,7 +63,7 @@ schema:
           title: "Application Code Directory"
           type: string
           description: "Source directory for the service"
-          default: "ecs-static-website"
+          default: "."
           minLength: 1
           maxLength: 100
         dockerfile:
