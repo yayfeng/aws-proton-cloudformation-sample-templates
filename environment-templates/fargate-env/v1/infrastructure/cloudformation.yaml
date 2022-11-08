@@ -219,7 +219,7 @@ Outputs:
     Description: Region of the SNS Topic
     Value: !Ref 'AWS::Region'
   VPC:
-    Description: The ID of the VPC that this stack is deployed in
+    Description: The ID of the VPC that this stack is deployed in test
     Value: !Ref 'VPC'
   PublicSubnet1:
     Description: Public subnet one
